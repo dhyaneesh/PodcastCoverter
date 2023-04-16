@@ -1,9 +1,8 @@
 # Podcast Scraper and Summarizer
-Podcast Scraper and Summarizer is an app designed to help users save time and make it easier for them to get the information they need from their favorite podcasts.
+Podcast Scraper and Summarizer is a powerful application that simplifies the process of listening to podcasts. Many people listen to podcasts on a regular basis, but sometimes they don't have time to listen to every episode or they may want to get a quick overview of the topics covered before diving into a longer episode. That's where this app comes in.
 
-The app allows users to scrape podcasts and receive a summary of their content. By entering the URL of the podcast and choosing the number of episodes to scrape, users can get a summary of the key topics and ideas covered in those episodes.
+The app's main feature is its ability to scrape podcast episodes and generate a summary of the content covered. The user simply enters the URL of the podcast they want to scrape and selects the number of episodes they want to summarize. The app then uses the Beautiful Soup library to scrape the podcast website and extract the content from the selected episodes. Once it has this content, the app uses NLTK to process the text and generate a summary that highlights the key topics and ideas covered in those episodes.
 
-The app is built with Python 3 and uses the Beautiful Soup library for scraping the podcast, Whisper for Speech to text, and Flask for building the web app. It is available under the GPL V3.0 license, and contributions are welcome via pull requests.
+The app is built with Python 3 and uses Flask to create a web-based user interface. Flask provides a simple and intuitive way to create a web application, making it easy for users to interact with the app from their browser. Additionally, Flask provides a lightweight framework that is easy to extend and customize, making it a great choice for this project.
 
-
-
+Podcast Scraper and Summarizer is available under the GPL 3 license, which means that it is free and open-source software. Anyone can use, modify, and distribute the software, as long as they follow the terms of the license. The GPL 3 license is a copyleft license, which means that any derivative works or modifications made to the software must also be released under the same GPL 3 license.
