@@ -1,7 +1,9 @@
 import torch
 import whisper
-PATH = "D:\Ivan\STT_Test\stevetest1.mp3"
 
+#must check this for better model versions, whisper related
 model = whisper.load_model("base")
-result = model.transcribe(PATH,fp16=False)
-print(result["text"])
+
+def getTextFromAudio(PATH):  
+  result = model.transcribe(PATH,fp16=False)
+  return result["text"] 
